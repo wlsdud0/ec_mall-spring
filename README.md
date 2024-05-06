@@ -12,6 +12,8 @@
 
 ### ERD
 
+![ERD](./img/ERD.png)
+
 ## 주요기능
 
 ### Unlogin User

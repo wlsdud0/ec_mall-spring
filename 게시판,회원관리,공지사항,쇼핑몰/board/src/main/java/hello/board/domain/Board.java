@@ -30,7 +30,7 @@ public class Board {
 	private String writer;
 	@Temporal(TemporalType.DATE)
 	private Date inputDate;
-	private long readCount;
+	private Long readCount;
 	private String password;
 	@OneToMany(mappedBy = "board")
 	private List<Likes> likes = new ArrayList<>();
