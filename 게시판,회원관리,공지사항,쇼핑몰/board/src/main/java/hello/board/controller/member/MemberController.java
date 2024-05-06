@@ -1,6 +1,7 @@
 package hello.board.controller.member;
 
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -66,19 +67,17 @@ public class MemberController {
 		//공지사항 리스트(getHomeNoticeList는 공지사항을 최신순으로 5개만 조회함.) 저장
 		model.addAttribute("noticeList", adminService.getHomeNoticeList());
 		//현재 로그인 한 회원이 관리자인지 확인하고 관리자면 관리자 페이지로 이동
-		if(session.getAttribute("isAdmin")!=null) {
-			if((boolean)session.getAttribute("isAdmin")) {
-				Member member = memberService.info(memberId);
-				model.addAttribute("userName",member.getUserName());
-				return "admin/home";
-			}
+		if(Boolean.TRUE.equals(session.getAttribute("isAdmin"))) {
+			Optional<Member> member = Optional.ofNullable(memberService.info(memberId));
+			member.ifPresent(m -> model.addAttribute("userName", m.getUserName()));
+			return "admin/home";
 		}
 		//관리자가 아니거나 로그인이 안되어 있을 경우
-		model.addAttribute("loginForm",new LoginForm());
+		model.addAttribute("loginForm", new LoginForm());
 		//로그인은 되어있는데 관리자가 아닐 경우
-		if(memberId!=null) {
-			Member member = memberService.info(memberId);
-			model.addAttribute("userName",member.getUserName());
+		if(memberId != null) {
+			Optional<Member> member = Optional.ofNullable(memberService.info(memberId));
+			member.ifPresent(m -> model.addAttribute("userName", m.getUserName()));
 		}
 		return "member/home";
 	}
