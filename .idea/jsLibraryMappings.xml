@@ -2,9 +2,5 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{bootstrap}" />
-    <file url="file://$PROJECT_DIR$/게시판,회원관리,공지사항,쇼핑몰/board" libraries="{bootstrap, jquery}" />
-    <file url="file://$PROJECT_DIR$/게시판,회원관리,공지사항,쇼핑몰/board/build/generated/sources/annotationProcessor/java/main" libraries="{bootstrap, jquery}" />
-    <file url="file://$PROJECT_DIR$/게시판,회원관리,공지사항,쇼핑몰/board/src/main" libraries="{bootstrap, jquery}" />
-    <file url="file://$PROJECT_DIR$/게시판,회원관리,공지사항,쇼핑몰/board/src/test" libraries="{bootstrap}" />
   </component>
 </project>
