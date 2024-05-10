@@ -20,13 +20,16 @@ jobs:
       # JDK 설정하기
       - name: Set up JDK 17
         uses: actions/setup-java@v4
-        # Action에 전달할 인자들
+        # Action에  달할 인자들
         with:
           java-version: '17'
           distribution: 'temurin'
-      # Gradle 설정하기
+      # Gradle 설정
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3.1.0
+      # permission 설정
+      - name: Make gradlew executable
+        run: chmod +x ./게시판,회원관리,공지사항,쇼핑몰/board/gradlew
       # Gradle Wrapper로 Test 진행
       - name: Test with Gradle Wrapper
         # 그냥 실행하는 명령의 경우 run
