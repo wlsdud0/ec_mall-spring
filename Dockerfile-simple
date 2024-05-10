@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17
 
 WORKDIR /app
-COPY 게시판 .
+COPY . .
 
 RUN <<EOF
 ./gradlew bootJar
