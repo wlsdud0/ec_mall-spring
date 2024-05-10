@@ -16,4 +16,4 @@ COPY --from=build /app/app.jar .
 
 CMD ["java", "-jar", "app.jar"]
 
-EXPOSE 8081
+EXPOSE 8080
