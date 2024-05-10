@@ -29,9 +29,9 @@ jobs:
         uses: gradle/actions/setup-gradle@v3.1.0
       # permission 설정
       - name: Make gradlew executable
-        run: chmod +x ./게시판,회원관리,공지사항,쇼핑몰/board/gradlew
+        run: chmod +x ./gradlew
       # Gradle Wrapper로 Test 진행
       - name: Test with Gradle Wrapper
         # 그냥 실행하는 명령의 경우 run
-        run: ./게시판,회원관리,공지사항,쇼핑몰/board/gradlew test
+        run: ./gradlew test
 
