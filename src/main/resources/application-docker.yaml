@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://3.34.197.255:3306/db_project2?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    url: jdbc:mariadb://database-1.cj6m6mmym46v.ap-northeast-2.rds.amazonaws.com:3306/db_project2?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
     username: sa
     password: 1234
 
