@@ -3,9 +3,7 @@
 - 상품을 등록하고 판매할 수 있는 온라인 쇼핑 웹사이트 프로젝트
 - 배포 : [Ecmall 웹사이트](https://ecmall.site)
 
----
-
-###  팀원 소개
+##  팀원 소개
 <br>
 <div align="center"> 
 <table>
@@ -45,8 +43,7 @@
 </div>
 <br>
 
----
-###  기술 스택
+##  기술 스택
 
 <div align="center">
   <p>💾 BACKEND</p>
@@ -75,8 +72,6 @@
     <img src="https://img.shields.io/badge/-NGINX-009639?style=flat&logo=nginx&logoColor=white"/>
 <br>
 </div>
-
----
 
 ## 설계
 ### 유스케이스 다이어그램
