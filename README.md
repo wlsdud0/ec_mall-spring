@@ -1,7 +1,7 @@
 # eCommerce Mall
-## 쇼핑몰 프로젝트
-- spring으로 만들어 본 온라인 쇼핑몰 웹사이트 프로젝트.
-- 배포 :
+## 온라인 쇼핑 플랫폼
+- spring으로 만들어 본 온라인 쇼핑 웹사이트 프로젝트 (캡스톤 디자인)
+- 배포 : [Ecmall 웹사이트](https://ecmall.site)
 
 ## 설계
 ### 유스케이스 다이어그램
@@ -63,3 +63,13 @@
   - 게시글에 관리자 답글 작성, 수정, 삭제
 
 
+## 사용된 기술
+- Java 17
+- SpringBoot 3.0.2
+- Spring MVC
+- Spring DataJPA
+- Thymeleaf
+- Gradle
+- Amazon EC2
+- MariaDB
+- Nginx
