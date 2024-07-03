@@ -21,16 +21,15 @@
   <tr>
         <td align="center">
             <br>
-            - 상품 관리 / 배송 기능 구현 <br>
-            - 관리자 회원관리 및 공지사항 서비스 구현 <br>
-            - HTTPS / 도매인 설정
+            - 상품관리 / 배송기능 구현 <br>
+            - 관리자 회원관리 / 공지사항 구현 <br>
+            - HTTPS / 도메인 설정
         </td>
         <td align="center">
             <br>
             - 커뮤니티 기능 구현 <br>
-            - AWS EC2 배포 <br>
-            - AWS RDS를 사용해 Maria DB 구축 <br>
-            - CI/CD 구축을 통해 배포 자동화
+            - AWS EC2 배포 / AWS RDS MariaDB 구축<br>
+            - CI/CD 구축을 통해 배포 자동화 / 무중단 배포
         </td>
         <td align="center">
             <br>
