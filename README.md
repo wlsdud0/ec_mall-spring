@@ -4,9 +4,6 @@
 - 사용자가 직접 상품을 등록해 쉽고 빠르게 매매할 수 있는 온라인 쇼핑 플랫폼.
 - 배포 : [Ecmall 웹사이트](https://ecmall.site)
 
-
-
-
 ##  팀원 소개
 <br>
 <div align="center"> 
